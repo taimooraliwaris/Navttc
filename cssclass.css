@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.atag{
+    background-color: red;
+    margin: 15px;
+    width: 50%;
+}
+.ptag{
+    color: aqua;
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+
+}
+.box2{
+    margin: 25px;
+    background-color: rgb(0, 85, 255);
+}

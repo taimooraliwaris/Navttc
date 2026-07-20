@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, rgba(0, 0, 255, 0.4), rgba(0, 255, 255, 0.4)), 
+    url("https://static.vecteezy.com/system/resources/thumbnails/013/087/516/small/diagonal-golden-line-glass-cube-on-black-background-illustration-of-website-banner-poster-sign-corporate-business-social-media-post-billboard-agency-advertising-media-motion-video-animation-wave-vector.jpg") center / cover;
+    animation: herofade 0.9s ease-out;
+}
+
+@keyframes herofade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.hero-content {
+    max-width: 500px;
+
+}
+
+.hero-tile h1, p {
+    color: white;
+}
+.title {
+        display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn-primary, .btn-secondary{
+    background-color: red;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 0.2rem 1rem;
+    color: aliceblue;
+}
+
+.btn-primary:hover{
+    background-color: yellow;
+    color: black;
+}
+
+@media (600px <= width <= 900px) {
+    .pag {
+        font-size: 20px;
+        color: rgb(255, 0, 0);
+    }
+}
+
+@media (max-width:599px) {
+    .pag {
+        font-size: 10px;
+        color: black;
+    }
+}
